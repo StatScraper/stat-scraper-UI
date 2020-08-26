@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+$primaryColor: #FFFFFF;
+$secondaryColor: #003865;
+
+a:hover{
+    text-decoration: none;
+}
+
+.primary-button{
+    background-color: $primaryColor;
+    color: $secondaryColor;
+    border-radius: 2.5px;
+    cursor: pointer;
+}

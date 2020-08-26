@@ -1,0 +1,36 @@
+@import "../styles.scss";
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  .footer {
+    background: $secondaryColor;
+    color: $primaryColor;
+    justify-content: center;
+    padding: 0.5rem;
+    width: 100;
+  }
+
+  .content {
+    flex: 1 100%;
+    .header-nav {
+      display: flex;
+      background: $secondaryColor;
+      min-height: 40px;
+      .nav-button {
+        color: $primaryColor;
+        cursor: pointer;
+        padding: 10px;
+        font-family: Verdana;
+      }
+
+      .primary-button {
+        border-radius: 2.5px;
+        align-self: flex-end;
+        font-family: Verdana;
+      }
+    }
+  }
+}
